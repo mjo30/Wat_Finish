@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "831580438712",
+    "firebase_url": "https://watfin-47818.firebaseio.com",
+    "project_id": "watfin-47818",
+    "storage_bucket": "watfin-47818.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831580438712:android:94d9dd5212bb7e25",
+        "android_client_info": {
+          "package_name": "com.example.minky.wat_finish"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "831580438712-bof1dsnqst0amqgmkkk64fn8mnqt51qb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.minky.wat_finish",
+            "certificate_hash": "f1136b58f5e9003cadf0216a175490841716632b"
+          }
+        },
+        {
+          "client_id": "831580438712-3fpvkhd7gnvpntqfth1pb3fcmalsjf7o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB4XXszoZ3dwdqRyPEC4R__oVEg2lPvPw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "831580438712-3fpvkhd7gnvpntqfth1pb3fcmalsjf7o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
