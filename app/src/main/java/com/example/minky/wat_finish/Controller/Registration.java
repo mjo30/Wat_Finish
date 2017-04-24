@@ -98,7 +98,7 @@ public class Registration extends AppCompatActivity {
         }
     }
 
-    private boolean addUser(final RegisteredUsers newUser) {
+    private void addUser(final RegisteredUsers newUser) {
         firebaseAuth = FirebaseAuth.getInstance();
 
         firebaseAuth.createUserWithEmailAndPassword(email, password)
@@ -113,7 +113,7 @@ public class Registration extends AppCompatActivity {
                             Toast toast = Toast.makeText(getApplicationContext(),
                                     "Registration Successful!",
                                     Toast.LENGTH_SHORT);
-                            startActivity(new Intent(getApplicationContext(), LoginActivity.class));
+//                            startActivity(new Intent(getApplicationContext(), LoginActivity.class));
                         }
                     }
                 });
